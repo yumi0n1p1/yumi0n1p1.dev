@@ -1,0 +1,30 @@
+@import "@fontsource/iosevka";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+body {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+pre {
+  width: fit-content;
+  word-break: break-all;
+  white-space: pre-line;
+  margin: 0 auto;
+}
+
+code {
+  font-family: Iosevka, Consolas, Menlo, Monaco, monospace;
+  font-feature-settings: "dlig", "ss12";
+}
