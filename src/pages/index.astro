@@ -1,5 +1,7 @@
 ---
 import "../styles/index.css";
+import moesevkaWoff2 from "../assets/fonts/Moesevka/WOFF2/Moesevka-Regular.woff2";
+import moesevkaBoldWoff2 from "../assets/fonts/Moesevka/WOFF2/Moesevka-Bold.woff2";
 ---
 
 <html lang="en">
@@ -7,6 +9,8 @@ import "../styles/index.css";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+		<link rel="preload" href={moesevkaWoff2} as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href={moesevkaBoldWoff2} as="font" type="font/woff2" crossorigin>
     <title>yumi0n1p1.dev</title>
   </head>
   <body>
