@@ -1,4 +1,4 @@
-@import "@fontsource/iosevka";
+@import url("/src/assets/fonts/Moesevka/Moesevka.css");
 
 * {
   box-sizing: border-box;
@@ -25,6 +25,35 @@ pre {
 }
 
 code {
-  font-family: Iosevka, Consolas, Menlo, Monaco, monospace;
-  font-feature-settings: "dlig", "ss12";
+  font-family: Moesevka Web, Iosevka, Consolas, Menlo, Monaco, monospace;
+}
+
+pre {
+  transition: 0.1s ease-out;
+}
+
+.hover-show {
+  display: none;
+  color: #000;
+  font-weight: bold;
+}
+
+pre:hover {
+  color: #aaa;
+}
+
+pre:hover .hover-hide {
+  display: none;
+}
+
+pre:hover .hover-show {
+  display: initial;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: 2px solid underline;
 }
