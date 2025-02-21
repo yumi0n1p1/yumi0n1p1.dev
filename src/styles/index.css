@@ -7,6 +7,9 @@
 :root {
   font-size: 16px;
   line-height: 1.5em;
+  --fg-primary: #000;
+  --fg-secondary: #bbb;
+  --bg: #fff;
 }
 
 body {
@@ -15,6 +18,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background: var(--bg);
+  color: var(--fg-primary);
+  overflow: hidden;
 }
 
 pre {
@@ -34,12 +40,12 @@ pre {
 
 .hover-show {
   display: none;
-  color: #000;
+  color: var(--fg-secondary);
   font-weight: bold;
 }
 
 pre:hover {
-  color: #aaa;
+  color: var(--fg-secondary);
 }
 
 pre:hover .hover-hide {
@@ -48,6 +54,7 @@ pre:hover .hover-hide {
 
 pre:hover .hover-show {
   display: initial;
+  color: var(--fg-primary);
 }
 
 a {
