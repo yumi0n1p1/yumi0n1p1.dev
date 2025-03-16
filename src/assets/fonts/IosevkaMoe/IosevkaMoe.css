@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Iosevka Moe Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url("WOFF2/IosevkaMoe-UltraExtended.woff2") format("woff2"),
+    url("TTF/IosevkaMoe-UltraExtended.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Moe Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: ultra-expanded;
+  font-style: normal;
+  src: url("WOFF2/IosevkaMoe-UltraExtendedBold.woff2") format("woff2"),
+    url("TTF/IosevkaMoe-UltraExtendedBold.ttf") format("truetype");
+}

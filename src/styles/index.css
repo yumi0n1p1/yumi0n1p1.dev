@@ -1,4 +1,4 @@
-@import url("/src/assets/fonts/Moesevka/Moesevka.css");
+@import url("/src/assets/fonts/IosevkaMoe/IosevkaMoe.css");
 
 * {
   box-sizing: border-box;
@@ -28,14 +28,12 @@ pre {
   word-break: break-all;
   white-space: pre-line;
   margin: 0 auto;
+  transition: 0.1s ease-out;
 }
 
 code {
-  font-family: Moesevka Web, Iosevka, Consolas, Menlo, Monaco, monospace;
-}
-
-pre {
-  transition: 0.1s ease-out;
+  font-family: Iosevka Moe Web, Iosevka, Consolas, Menlo, Monaco, monospace;
+  font-stretch: ultra-expanded;
 }
 
 .hover-show {
